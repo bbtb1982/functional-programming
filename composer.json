@@ -1,0 +1,25 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "brianhaveri/Underscore.php",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/brianhaveri/Underscore.php/archive/master.zip",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "classmap": ["underscore.php"]
+                }
+            }
+        }
+    ],
+    "require": {
+        "react/partial": "~2.0",
+        "nicmart/functionals": "dev-master",
+        "brianhaveri/Underscore.php": "dev-master",
+        "lstrojny/functional-php": "dev-master",
+        "phpoption/phpoption": "1.*"
+    }
+}
